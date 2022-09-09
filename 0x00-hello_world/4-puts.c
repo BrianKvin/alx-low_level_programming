@@ -2,8 +2,8 @@
 /**
  *main- Entry point
  *
- *Return: Success
- */
+ *Return: success
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzie");
