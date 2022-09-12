@@ -2,22 +2,21 @@
 /**
  * main - Print alphabet in lowercase followed by new line
  *
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative"
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c = 'a';
+	char ch;
 
-	while (c <= 'z')
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if (c != 'e' && c != 'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(c);
+			putchar(ch);
 		}
-		c++
 	}
-
-	putchar('\n')
-		return (0);
+		putchar('\n')
+			return (0);
 }
-
