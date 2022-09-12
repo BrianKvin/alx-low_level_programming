@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time,h>
+#include <time.h>
 /**
- * main - principla function
+ * main - print last digit in random number
  *
  * Return: end the program
  */
