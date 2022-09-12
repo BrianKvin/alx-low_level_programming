@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-/** main -print a letter of the aplhabet
+/**
+ * main -print a letter of the aplhabet
  *
  * Description: print letters of the alphabet
  *
