@@ -4,7 +4,8 @@
 /**
  * main - positive anything is better than nothing
  * Describe: print positive, zero, or negative numbers
- * this progrm prints positive, zero or negative numbers
+ * this program prints positive, zero or negative numbers
+ * Return: 0 (success)
  */
 
 int main(void)
