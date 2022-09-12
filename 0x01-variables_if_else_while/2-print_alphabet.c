@@ -6,16 +6,12 @@
  *
  * Return: 0 (Success)
  */
-
 int main(void)
 {
-	char letra = 'a';
-	char retorno = '\n';
-	while (letra <= 'z')
+	char ch;
+	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		putchar (letra);
-		letra++;
+		putchar(ch)
 	}
-	putchar (retrono);
 	return (0);
 }
