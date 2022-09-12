@@ -4,7 +4,7 @@
 /**
  * main - print last digit in random number
  *
- * Return: end the program
+ * Return: (0) end the program
  */
 int main(void)
 {
