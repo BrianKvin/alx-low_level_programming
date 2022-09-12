@@ -9,12 +9,15 @@
 
 int main(void)
 {
-	int i;
+	int c;
 
-	for (i = 0; i < 10; i++)
+	c = 0;
+	while
+		(c < 10)
 	{
-		putchar("%i", i);
+		putchar(c + '0');
+		c++
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
