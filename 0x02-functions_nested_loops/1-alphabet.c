@@ -2,7 +2,7 @@
 /**
  * print alphabet in lower case
  *
- * Retirn: o
+ * Return: 0
  */
 void printAlphabet(void)
 {
