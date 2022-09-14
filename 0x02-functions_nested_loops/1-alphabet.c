@@ -4,7 +4,7 @@
  *
  * Return: 0
  */
-void printAlphabet(void)
+void printAlpha(void)
 {
 	int i;
 
