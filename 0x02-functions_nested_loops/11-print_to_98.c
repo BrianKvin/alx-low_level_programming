@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_to_98 -prints all numbers between 0 and 98
- * numbers separated by comma followed by space
+ * print_to_98 -prints all numbers from input to 98,
+ * 	numbers separated by comma followed by space
  * @n: The first number to begin counting from
  */
 void print_to_98(int n)
