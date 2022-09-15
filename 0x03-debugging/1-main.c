@@ -8,6 +8,7 @@ int main(void)
 	int i;
 
 	printf("infinite loop incoming :(\n");
+
 	i = 0;
 
 	/*
@@ -18,5 +19,6 @@ int main(void)
 	 */
 
 	printf("infinite loop avoided! \\0/\n");
+
 	return (0);
 }
