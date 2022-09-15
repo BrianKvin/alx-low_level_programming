@@ -6,6 +6,6 @@
  * int prototypes (void)
  */
 
-int _isupper(int c);
+int _isdigit(int c);
 
 endif /* MAIN_H */
