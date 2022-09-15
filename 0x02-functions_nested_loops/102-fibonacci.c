@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf("%lu", f1);
 		}
-				else 
+		else
 				{
 					printf("%lu, ", f1);
 					next = f1 + f2;
@@ -29,4 +29,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-				
