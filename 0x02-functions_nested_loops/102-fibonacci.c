@@ -9,7 +9,7 @@ int main(void)
 	int i, n;
 	long f1, f2, next;
 
-	f1 = 1
+	f1 = 1;
 	f2 = 2;
 	n = 50;
 	for (i = 0; i < n; i++)
@@ -22,7 +22,7 @@ int main(void)
 				{
 					printf("%lu, ", f1);
 					next = f1 + f2;
-					f1 = f2
+					f1 = f2;
 					f2 = next;
 				}
 	}
