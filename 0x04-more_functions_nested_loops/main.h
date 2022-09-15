@@ -3,7 +3,7 @@
 
 /**
  * main - header file for prototypes
- * void prototypes (void)
+ * int prototypes (int)
  */
 
 void more_numbers(void);
