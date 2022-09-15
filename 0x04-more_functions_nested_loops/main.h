@@ -3,7 +3,7 @@
 
 /**
  * main - header file for prototypes
- * int prototypes (void)
+ * int prototypes (int)
  */
 
 int _isupper(int c);
