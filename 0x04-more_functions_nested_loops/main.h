@@ -3,9 +3,9 @@
 
 /**
  * main - header file for prototypes
- * int prototypes (int)
+ * void prototypes (void)
  */
 
-int mul(int a, int b);
+void print_numbers(void);
 
 #endif /* MAIN_H */
