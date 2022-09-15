@@ -1,4 +1,4 @@
-#include "main.h"
+#include "<stdio.h>
 /**
  * print -prints all numbers between 0 and 98
  * numbers separated by comma followed by space
