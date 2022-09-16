@@ -6,20 +6,26 @@
  */
 int main(void)
 {
-	int i = 1;
+	int num = 1;
 
-	for (; i < 100 ; i++)
+	while ((num % % 3 == 0) && (num % 5 == 0))
 	{
-		if (i % 3 == && i % 5 == 0)
-			printf("FizzBuzz ");
-		else if (i % 3 == 0)
-			printf("Fizz ");
-		else if (i % 5 == 0);
-			printf("Buzz ");
-		else
-			printf("%d ", i);
+		printf("FizzBuzz ");
 	}
-	printf("Buzz\n");
-
-		return (0);
+	else if ((num % 3) == 0)
+	{
+		printf("Fizz ");
+	}
+	else if ((num % 5) == 0)
+	{
+		if (num != 100)
+		{
+			printf("Buzz ");
+		}
+		else
+		{
+			printf("Buzz\n");
+			return (0);
+		}
+	}
 }
