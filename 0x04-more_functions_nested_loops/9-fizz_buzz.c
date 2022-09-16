@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 #include <stdio.h>
 /**
  * main - entry point
@@ -10,7 +10,7 @@ int main(void)
 
 	for (; i < 100 ; i++)
 	{
-		if (i % 3 == &&i % 5 == 0)
+		if (i % 3 == && i % 5 == 0)
 			printf("FizzBuzz ");
 		else if (i % 3 == 0)
 			printf("Fizz ");
@@ -19,7 +19,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	print("Buzz\n");
+	printf("Buzz\n");
 
 		return (0);
 }
