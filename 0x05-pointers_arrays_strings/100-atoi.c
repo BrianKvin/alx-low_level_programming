@@ -8,7 +8,7 @@
 
 int _atoi(char *s)
 {
-	int sign:
+	int sign;
 	unsigned int num;
 	char *temp;
 
@@ -19,7 +19,7 @@ int _atoi(char *s)
 	{
 		if (*temp == '-')
 			sign *= -1;
-		temp++
+		temp++;
 	}
 	if (*temp != '\0')
 	{
