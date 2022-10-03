@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("%d\n", a * b);
 		return (0);
 	}
-	if (argc != 3)
+	else if (argc != 3)
 	printf("%s\n", "Error");
 	return (1);
 }
