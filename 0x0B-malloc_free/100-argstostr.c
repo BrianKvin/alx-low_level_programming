@@ -1,33 +1,39 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * len - returns length of str
- * @str: string counted
- * Return: returns the length
- */
-int len(char *str)
-{
-	int len = 0;
-
-	if (str != NULL)
-	{
-		while (str[len]
-			len++;
-	}
-	return (len);
-}
-
-/**
- * argstostr - a function that concatenates all the arguments of a program
- * @ac: count of args passed to the function
- * @av: array of arguments
- * Return: pointer to the new string
+ * argstostr - main entry
+ * @ac: input
+ * @av: pointer array
+ * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
-	char *new_string = NULL;
-	int k = 0, i = ac, j, sum = 0, temp = 0;
+	int i, n, k = 0, len = 0;
+	char *str;
 
 	if (ac == 0 || av == NULL)
-	return (NULL);
+		return (NULL);
+	for (i = 0; i < ac; i++)
+	{
+		for (n = 0; i < ac; i++)
+			len++;
+	}
+	len += ac;
+	str = malloc(sizeof(char) * len + 1);
+	if (str == NULL)
+		return (NULL);
+	for (i = 0; i < ac; i++)
+	{
+		for (n = 0; av[i][n]; n++)
+		{
+			str[k] = av[i][n];
+			k++;
+		}
+		if (str[k] == '\0')
+		{
+			str[k++] = '\n';
+		}
+	}
+	return (str);
 }
